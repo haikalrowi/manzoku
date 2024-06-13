@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html className="bg-background text-foreground dark">
       <body className={inter.className}>
         <NextUIProvider>{children}</NextUIProvider>
       </body>
